@@ -47,7 +47,7 @@ Then `go run pwdgen_$GOOS.go` or `go build -o pwdgen.exe pwdgen_$GOOS.go`.
 
 	import (
 		"fmt"
-		pwdgen "github.com/chai2010/pwdgen"
+		pwdgen "github.com/webfd/pwdgen"
 	)
 	func main() {
 		fmt.Println(pwdgen.PwdGen("id0", "site0", "111", "fuckcsdn"))
@@ -63,6 +63,5 @@ See ([Issue4210](https://code.google.com/p/go/issues/detail?id=4210)).
 
 ## Reference
 
-* http://godoc.org/github.com/chai2010/pwdgen
-* https://en.bitcoin.it/wiki/Base58Check_encoding
+* http://godoc.org/github.com/webfd/pwdgen
 * http://keepass.info/
