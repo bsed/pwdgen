@@ -63,5 +63,5 @@ See ([Issue4210](https://code.google.com/p/go/issues/detail?id=4210)).
 
 ## Reference
 
-* http://godoc.org/github.com/webfd/pwdgen
+* http://godoc.org/github.com/bsed/pwdgen
 * http://keepass.info/
