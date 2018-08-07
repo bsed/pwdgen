@@ -4,15 +4,15 @@ Password generator, support [KeePass 1.x](http://keepass.info/) format file.
 
 ## Install from Standalone File
 
-- Windows: download [pwdgen_windows.go](https://github.com/chai2010/pwdgen/blob/master/pwdgen_windows.go)
-- Darwin: download [pwdgen_darwin.go](https://github.com/chai2010/pwdgen/blob/master/pwdgen_darwin.go)
-- Linux: download [pwdgen_linux.go](https://github.com/chai2010/pwdgen/blob/master/pwdgen_linux.go)
+- Windows: download [pwdgen_windows.go](https://github.com/bsed/pwdgen/blob/master/pwdgen_windows.go)
+- Darwin: download [pwdgen_darwin.go](https://github.com/bsed/pwdgen/blob/master/pwdgen_darwin.go)
+- Linux: download [pwdgen_linux.go](https://github.com/bsed/pwdgen/blob/master/pwdgen_linux.go)
 
 Then `go run pwdgen_$GOOS.go` or `go build -o pwdgen.exe pwdgen_$GOOS.go`.
 
 ## Install With `go get`
 
-	go get github.com/webfd/pwdgen
+	go get github.com/bsed/pwdgen
 
 ## Usage
 
@@ -47,7 +47,7 @@ Then `go run pwdgen_$GOOS.go` or `go build -o pwdgen.exe pwdgen_$GOOS.go`.
 
 	import (
 		"fmt"
-		pwdgen "github.com/webfd/pwdgen"
+		pwdgen "github.com/bsed/pwdgen"
 	)
 	func main() {
 		fmt.Println(pwdgen.PwdGen("id0", "site0", "111", "fuckcsdn"))
